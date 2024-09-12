@@ -1,7 +1,6 @@
 #ifndef DARTS_H
 #define DARTS_H
 #include <stdint.h>
-#include <stdio.h>
 #include <math.h>
 
 typedef struct {
@@ -9,5 +8,5 @@ typedef struct {
     float y;
 } coordinate_t;
 
-u_int8_t score(coordinate_t dart);
+int8_t score(coordinate_t dart);
 #endif
