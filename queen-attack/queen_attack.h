@@ -12,5 +12,7 @@ typedef struct {
 
 attack_status_t can_attack(position_t queen_1, position_t queen_2);
 int valid_position(position_t queen);
+int has_valid_position(position_t queen_1, position_t queen_2);
+int is_on_straight_or_diagonal(position_t queen_1, position_t queen_2);
 
 #endif
